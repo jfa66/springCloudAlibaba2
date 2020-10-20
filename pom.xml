@@ -4,8 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>payment-provider9001</module>
         <module>payment-provider9002</module>
+        <module>payment-provider9003</module>
+        <module>order-consumer8002</module>
+        <module>order-consumer8003</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,4 +1,4 @@
-package com.jfa.main;
+package com.jfa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan("com.jfa")
-public class Payment9002Application {
-
+public class Order8003Application {
     public static void main(String[] args) {
-        SpringApplication.run(Payment9002Application.class,args);
+        SpringApplication.run(Order8003Application.class,args);
     }
 }
